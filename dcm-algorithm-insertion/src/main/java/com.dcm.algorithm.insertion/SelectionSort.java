@@ -1,3 +1,5 @@
+package com.dcm.algorithm.insertion;
+
 public class SelectionSort {
 
     private SelectionSort(){}

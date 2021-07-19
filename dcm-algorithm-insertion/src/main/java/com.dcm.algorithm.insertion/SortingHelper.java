@@ -1,4 +1,4 @@
-package com.dcm.algorithm.selection;
+package com.dcm.algorithm.insertion;
 
 public class SortingHelper {
 
@@ -15,8 +15,10 @@ public class SortingHelper {
     public static <E extends Comparable<E>> void sortTest(String sortname, E[] arr){
 
         long startTime = System.nanoTime();
-        if(sortname.equals("SelectionSortGenerator"))
-            SelectionSortGenerator.sort(arr);
+        if(sortname.equals("SelectionSort"))
+            SelectionSort.sort(arr);
+        else if(sortname.equals("InsertionSortSelection"))
+            InsertionSortSelection.sort(arr);
         long endTime = System.nanoTime();
 
         double time = (endTime - startTime) / 1000000000.0;

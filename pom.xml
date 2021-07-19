@@ -10,9 +10,9 @@
         <module>dcm-algorithm-parent</module>
         <module>dcm-algorithm-linear</module>
         <module>dcm-algorithm-selection</module>
-        <!--<module>dcm-algorithm-insertion</module>
+        <module>dcm-algorithm-insertion</module>
         <module>dcm-algorithm-arrays</module>
-        <module>dcm-algorithm-stack</module>
+        <!--<module>dcm-algorithm-stack</module>
         <module>dcm-algorithm-queue</module>
         <module>dcm-algorithm-link</module>
         <module>dcm-algorithm-recursion</module>-->
